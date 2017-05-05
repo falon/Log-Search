@@ -1,0 +1,12 @@
+[SplunkSDK]
+splpath                 = '/path/to/splunk-sdk-php-1.0.1/'
+splunkConn[host]        = splunk.example.com
+splunkConn[port]        = 8089
+splunkConn[username]    = admin
+splunkConn[password]    = changeme
+splunkConn[scheme]      = http
+namespace['user']       = admin
+namespace['app']        = postfix
+
+[Search]
+msa			= msaserver	; The prefix name of servers sending the mails
